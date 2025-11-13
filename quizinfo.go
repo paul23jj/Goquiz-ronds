@@ -6,7 +6,7 @@ func StartQuizInfo() {
 	fmt.Println("=== Quiz Informatique ===")
 	fmt.Println("=== Quiz Informatique Générale ===")
 
-	totalQuestions := 3
+	totalQuestions := 10
 	score := 0
 	// Question 1
 	fmt.Println("Quel est le système d’exploitation libre le plus utilisé ?")
@@ -29,6 +29,62 @@ func StartQuizInfo() {
 	fmt.Println("1. HyperText Markup Language")
 	fmt.Println("2. HighText Machine Learning")
 	fmt.Println("3. Hyper Transfer Main Line")
+	if CheckAnswer(1) {
+		score++
+	}
+	//Question 4
+	fmt.Println("Qu'est ce qu'une adresse IP ?")
+	fmt.Println("1. Un identifiant unique pour un appareil sur un réseau")
+	fmt.Println("2. Un protocole de communication")
+	fmt.Println("3. Un type de logiciel malveillant")
+	if CheckAnswer(1) {
+		score++
+	}
+	//Question 5
+	fmt.Println("Quel composant est considéré comme le 'cerveau' de l'ordinateur ?")
+	fmt.Println("1. La RAM")
+	fmt.Println("2. Le processeur (CPU)")
+	fmt.Println("3. Le disque dur")
+	if CheckAnswer(2) {
+		score++
+	}
+	//Question 6
+	fmt.Println("Que signifie le terme 'open source' ?")
+	fmt.Println("1. Logiciel dont le code source est accessible et modifiable par tous")
+	fmt.Println("2. Logiciel payant")
+	fmt.Println("3. Logiciel développé uniquement par des entreprises")
+	if CheckAnswer(1) {
+		score++
+	}
+	//Question 7
+	fmt.Println("Qu'est ce qu'un SSD ?")
+	fmt.Println("1. Un type de mémoire vive")
+	fmt.Println("2. Un type de disque de stockage rapide")
+	fmt.Println("3. Un protocole réseau")
+	if CheckAnswer(2) {
+		score++
+	}
+	//Question 8
+	fmt.Println("Qu'est ce qu'une API ?")
+	fmt.Println("1. Une Interface de Programmation d'Applications")
+	fmt.Println("2. Un type de virus informatique")
+	fmt.Println("3. Un langage de programmation")
+	if CheckAnswer(1) {
+		score++
+	}
+	//Question 9
+	fmt.Println("A quoi sert le BIOS dans un ordinateur ?")
+	fmt.Println("1. Initialiser le matériel au démarrage")
+	fmt.Println("2. Gérer les fichiers")
+	fmt.Println("3. Protéger contre les virus")
+	if CheckAnswer(1) {
+		score++
+	}
+	//Question 10
+	fmt.Println("Quel est le rôle de la RAM ?")
+	fmt.Println("1. Stocker temporairement les données en cours d'utilisation")
+	fmt.Println("2. Stocker les données de manière permanente")
+	fmt.Println("3. Gérer les connexions réseau")
 	if CheckAnswer(1) {
 		score++
 	}

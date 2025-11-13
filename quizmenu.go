@@ -8,7 +8,7 @@ func ShowMenu() {
 	fmt.Println("1. Quiz Info")
 	fmt.Println("2. Quiz Cyber")
 	fmt.Println("3. Quiz IA & Data")
-	fmt.Println("0. Quitter\n")
+	fmt.Println("0. Quitter")
 	fmt.Print("Choix : ")
 	fmt.Scan(&choice)
 
