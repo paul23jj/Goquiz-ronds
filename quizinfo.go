@@ -108,9 +108,9 @@ func CheckAnswer(correctAnswer int) bool {
 func CalculateScore(score int, total int) {
 	fmt.Printf("Tu as %d/%d bonnes réponses.\n", score, total)
 
-	if score <= 1 {
+	if score <= 3 {
 		fmt.Println("🔰 Niveau : Apprenti codeur")
-	} else if score == 2 {
+	} else if score > 3 && score <= 7 {
 		fmt.Println("💻 Niveau : Développeur en progression")
 	} else {
 		fmt.Println("🤯 Niveau : Cyber Mastermind")
