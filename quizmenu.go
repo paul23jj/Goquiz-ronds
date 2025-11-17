@@ -4,7 +4,7 @@ import "fmt"
 
 func ShowMenu() {
 	var choice int
-	fmt.Println("==== Quiz Menu ====")
+	fmt.Println("==== GoQuiz ====")
 	fmt.Println("1. Quiz Info")
 	fmt.Println("2. Quiz Cyber")
 	fmt.Println("3. Quiz IA & Data")

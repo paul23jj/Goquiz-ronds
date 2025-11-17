@@ -36,10 +36,10 @@ func StartQuizIAData() {
 	}
 	// Question 4
 	fmt.Println("Que signifie 'Machine Learning' ?")
-	fmt.Println("1. Apprentissage automatique")
-	fmt.Println("2. Apprentissage manuel")
+	fmt.Println("1. Apprentissage manuel")
+	fmt.Println("2. Apprentissage automatique")
 	fmt.Println("3. Apprentissage supervisé uniquement")
-	if CheckAnswer(1) {
+	if CheckAnswer(2) {
 		score++
 	}
 	// Question 5
@@ -56,6 +56,38 @@ func StartQuizIAData() {
 	fmt.Println("2. Un type de réseau informatique")
 	fmt.Println("3. Un modèle d'apprentissage inspiré du cerveau humain")
 	if CheckAnswer(3) {
+		score++
+	}
+	// Question 7
+	fmt.Println("Quelle était la tâche principale de deepBlue d'IBM ?")
+	fmt.Println("1. Jouer aux échecs")
+	fmt.Println("2. Analyser des données")
+	fmt.Println("3. Reconnaissance vocale")
+	if CheckAnswer(1) {
+		score++
+	}
+	// Question 8
+	fmt.Println("Quelle est la différence entre IA faible et IA forte ?")
+	fmt.Println("1. IA faible est spécialisée, IA forte est générale")
+	fmt.Println("2. IA faible est plus intelligente que IA forte")
+	fmt.Println("3. IA faible utilise plus de données que IA forte")
+	if CheckAnswer(1) {
+		score++
+	}
+	// Question 9
+	fmt.Println("Qui est considéré comme le père de l'intelligence artificielle ?")
+	fmt.Println("1. Alan Turing")
+	fmt.Println("2. John McCarthy")
+	fmt.Println("3. Marvin Minsky")
+	if CheckAnswer(2) {
+		score++
+	}
+	// Question 10
+	fmt.Println("Quel est l'objectif principal de l'analyse prédictive ?")
+	fmt.Println("1. Prévoir les tendances futures")
+	fmt.Println("2. Nettoyer les données")
+	fmt.Println("3. Stocker les données efficacement")
+	if CheckAnswer(1) {
 		score++
 	}
 	CalculateScore(score, totalQuestions)
